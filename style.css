@@ -1,0 +1,347 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: 'Lato', sans-serif;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.header {
+  margin: 0 auto;
+  padding: 3.2rem 0;
+  max-width: 94.5rem;
+  border-bottom: 1px solid #828282;
+}
+
+.header__nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__nav-item:first-child {
+  color: #070707;
+}
+
+.header__nav-item {
+  font-size: 1.8rem;
+  line-height: 2.228rem;
+  color: #828282;
+  font-weight: 900;
+}
+
+.preview {
+  margin: 0 auto;
+  max-width: 94.5rem;
+  padding: 3.969rem 0 10.406rem 0;
+}
+
+.preview__info {
+  padding-bottom: 3.1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.preview__info-name {
+  max-width: 11.817rem;
+  font-size: 4.734rem;
+  line-height: 5.861rem;
+  font-weight: 900;
+  color: #070707;
+}
+
+.preview__info-about {
+  max-width: 15.1rem;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 2.2rem;
+  color: #070707;
+  padding-bottom: 1rem;
+}
+
+.preview__info-language {
+  max-width: 6.6rem;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 900;
+  writing-mode: vertical-lr;
+  transform: scale(-1);
+}
+
+.preview__info-language-gray {
+  color: #828282;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  font-weight: 900;
+}
+
+.preview-img {
+  background-image: url("img/BSPP2266.jpg");
+  background-position: center ;
+  background-repeat: no-repeat;
+  min-height: 40rem;
+  min-width: 100%;
+  background-size: cover;
+}
+
+.about {
+  background: #F6F6F6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 12rem 0 10.07rem 0;
+}
+
+.about__title {
+  margin-bottom: 1.8rem;
+}
+
+.about__title a {
+  font-size: 3.4rem;
+  line-height: 4.209rem;
+  color: #070707;
+  font-weight: 700;
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  max-width: 48.5rem;
+}
+
+.about__info-text h2 {
+  font-size: 1.8rem;
+  line-height: 2.183rem;
+  font-weight: normal;
+  color: #070707;
+  text-align: center;
+}
+
+.skills {
+  margin: 0 auto;
+  padding: 9.1rem 0 11rem 0;
+  max-width: 94.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills__title {
+  margin-bottom: 7rem;
+}
+
+.skills__title a {
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 4.209rem;
+  color: #070707;
+}
+
+.skills__text {
+  font-size: 1.8rem;
+  line-height: 2.2rem;
+  margin-bottom: 8.3rem;
+}
+
+.skills__programs {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.skills__programs-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills__programs-item:last-child {
+  justify-content: space-around;
+}
+
+.skills__programs-item-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.4rem;
+}
+
+.photoshop {
+  background: radial-gradient(75.99% 75.64% at 32.94% 22.44%, rgba(52, 54, 78, 0.98) 0%, #0C0824 100%);
+}
+
+.illustrator {
+  background: radial-gradient(76% 75.63% at 32.97% 22.44%, rgba(66, 51, 37, 0.98) 0%, #1C0A00 100%);;
+}
+
+.effect {
+  background: radial-gradient(76% 75.63% at 32.97% 22.42%, rgba(68, 47, 85, 0.98) 0%, #12002C 100%);;
+}
+
+.skills__programs-item-name {
+  max-width: 8rem;
+  font-size: 1.4rem;
+  color: #828282;
+  text-align: center;
+  margin-bottom: 4.041rem;
+}
+
+.skills__programs-item-stars img {
+  margin-right: 1rem;
+}
+
+.portfolio {
+  width: 100%;
+  padding: 12.93rem 0 9.607rem 0;
+  background: #F6F6F6;
+}
+
+.portfolio__item {
+  max-width: 94.5rem;
+  margin: 0 auto;
+  padding-bottom: 10rem;
+}
+
+.portfolio__item:last-child {
+  padding-bottom: 0;
+}
+
+.portfolio__title {
+  padding-bottom: 4.7rem;
+  text-align: center;
+}
+
+.portfolio__title a {
+  font-size: 3.4rem;
+  line-height: 4.209rem;
+  color: #070707;
+  font-weight: 700;
+}
+
+.portfolio__image {
+  width: 100%;
+  padding-bottom: 4.5rem;
+}
+
+.portfolio__image img {
+  max-width: 100%;
+}
+
+.portfolio__link {
+  font-size: 1.8rem;
+  line-height: 2.183rem;
+  color: #070707;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.footer {
+  padding: 11.4rem 0 12.3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__contacts {
+  margin-bottom: 2rem;
+}
+
+.footer__contacts a {
+  font-size: 3.4rem;
+  line-height: 4.209rem;
+  font-weight: 700;
+  color: #070707;
+}
+
+.footer__title {
+  font-size: 1.8rem;
+  line-height: 2.183rem;
+  color: #070707;
+}
+
+.footer__button {
+  margin: 3rem 0 8.6rem 0;
+  color: white;
+  background: #070707;
+  font-size: 1.8rem;
+  line-height: 2.228rem;
+  font-weight: 700;
+  width: 18rem;
+  height: 4.2rem;
+  border-radius: 3rem;
+  cursor: pointer;
+}
+
+.footer__logo {
+  display: flex;
+  gap: 6.7rem;
+  margin-bottom: 4.6rem;
+}
+
+.footer__text {
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color:#828282;
+}
+
+@media (max-width: 1000px) {
+  * {
+    font-size: 7px;
+  }
+}
+
+@media (max-width: 700px) {
+  * {
+    font-size: 6px;
+  }
+
+  .skills__programs {
+    flex-direction: column;
+  }
+
+  .skills__programs-item-name {
+    max-width: 15rem;
+    font-size: 2rem;
+  }
+
+  .skills__programs-item-stars {
+    margin-bottom: 13.5rem;
+  }
+
+  .skills__programs-item:last-child .skills__programs-item-stars {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 580px) {
+  .header__nav {
+    flex-direction: column;
+  }
+
+  .header__nav-item {
+    padding-bottom: 2rem;
+  }
+
+  .header__nav-item:last-child {
+    padding-bottom: 0;
+  }
+
+  .portfolio img {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .footer__button {
+    width: 31.6rem;
+  }
+}
